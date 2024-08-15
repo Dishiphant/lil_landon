@@ -4,8 +4,6 @@ import React, { useEffect, useState } from 'react';
 
 const HotelInfo = () => {
     //Services and Amenities API call
-
-
     const [servicesAndAmenitiesData, setServicesAndAmenitiesData] = useState([]);
 
     const loadServicesAndAmenitiesData = async() =>{
