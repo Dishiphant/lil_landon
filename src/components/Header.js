@@ -10,7 +10,7 @@ const Header = () => {
     let jsonData = await resp.json();
 
     //Assign response data to our state variable
-    setMenuLinksData(jsonData)
+    setMenuLinksData(jsonData);
   }
 
   useEffect(() => {
